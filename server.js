@@ -3,10 +3,6 @@ const supa = require('@supabase/supabase-js');
 const app = express();
 const supabase = supa.createClient(process.env.URL, process.env.KEY);
 
-// add my url and key to the repo
-// add error msg if does not exist
-// compare results with kyle (kyle compared with mo)
-
 /*
  * return all seasons
  */
